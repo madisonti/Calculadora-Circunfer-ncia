@@ -61,15 +61,15 @@ int main() {
 
     float raio, comprimento;
 
-    printf("\nOlá, seja bem-vindo!\n");
-    printf("\nEste sistema calcula o comprimento da circunferência a partir do valor do raio.\n");
-    printf("\nDigite o valor do raio: ");
+    printf("\n Olá, seja bem-vindo!\n");
+    printf("\n Este sistema calcula o comprimento da circunferência a partir do valor do raio.\n");
+    printf("\n Digite o valor do raio: ");
     scanf("%f", &raio);
 
     // M_PI é uma constante definida em <math.h> que representa o valor de Pi
     comprimento = 2 * M_PI * raio;
 
-    printf("\nO comprimento da circunferência é: %.2f\n", comprimento);
+    printf("\n O comprimento da circunferência é: %.2f\n", comprimento);
 
     return 0;
 }
