@@ -57,7 +57,7 @@ Onde:
 
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
-    system("chcp 65001 > nul"); // Força o console a usar UTF-8 no Windows
+    system("chcp 65001 > nul");
 
     float raio, comprimento;
 
@@ -66,7 +66,7 @@ int main() {
     printf("\n Digite o valor do raio: ");
     scanf("%f", &raio);
 
-    // M_PI é uma constante definida em <math.h> que representa o valor de Pi
+   
     comprimento = 2 * M_PI * raio;
 
     printf("\n O comprimento da circunferência é: %.2f\n", comprimento);
